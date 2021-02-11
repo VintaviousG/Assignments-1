@@ -10,3 +10,10 @@ th, td {
   padding: 5px;
   text-align: left;
 }
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title> Need To Be Form Page 3</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<div class="container">
+
+		<header>HEADER</header>
+
+		<div class="content">
+
+
+			<aside class="left-sidebar">LEFT SIDEBAR:
+
+
+				<nav>
+					<ol type="I">
+						<li><a href="index.html">Home </a></li>
+
+						<li><a href="page1.html">Page 1</a></li>
+						<li><a href="page2.html">Page 2</a></li>
+						<li><a href="page3.html">Page 3</a></li>
+
+						<li>
+							<a href="https://www.columbusstate.edu">CSU Main Page</a>
+						</li>
+					</ol>
+				</nav>
+			</aside>
+
+			<main>
+				<h4>Form</h4>
+
+<section>
+
+<form action="https://webdevbasics.net/scripts/yoga.php" method="post" onsubmit="return  validatePasswordLength()">
+<label for="firstname">First Name: </label>
+<input type="text" name="firstname" id="firstname" size="25"  maxlength="25" placeholder="Your first name" required>
+<br>
+
+<label for="lastname">Last Name: </label>
+<input type="text" name="lastname" id="lastname" size="25"  maxlength="25" placeholder="Your first name" required>
+<br>
+
+
+<label for="email">Email: </label>
+<input type="email" name="email" id="email" placeholder="Email Address" required>
+<br>
+
+
+<label for="states">Choose your States: </label>
+<select name="states" id="states">
+  <option value="AL">AL</option>
+  <option value="FL">FL</option>
+  <option value="GA">GA</option>
+</select>
+
+<br>
+
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday" placeholder="Birthday" required>
+<br>
+
+<label for="phone">Phone Number</label>
+<input type="tel" name="phone" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+<br>
+
+
+<label for="password">Password:</label>
+<input type="password" name="password" id="password" placeholder="Password"  size="20" required>
+
+<br>
+
+
+<input type="submit" value="Submit">
+
+</form>
+
+</section>
+                 
+                  </main>
+
+               
+             <aside class="right-sidebar">RIGHT SIDEBAR</aside>
+
+        </div>
+
+        <footer>FOOTER</footer>
+
+
+    </div> 
+
+
+
+
+	<script src="script.js">
+
+	</script>
+</body>
+
+</html>
